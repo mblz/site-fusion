@@ -2,6 +2,8 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+gem 'eventmachine', github: "eventmachine/eventmachine"
+
 gem "middleman", "~>3.3.6"
 
 # Live-reloading plugin
